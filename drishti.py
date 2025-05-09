@@ -14,12 +14,12 @@ from io import BytesIO
 import base64
 
 # Telegram Bot Configuration
-TELEGRAM_BOT_TOKEN = "7944912143:AAEq_4FdrqPLUOCJwgDh-nergA-BT7bjzAw"
-TELEGRAM_CHAT_ID = "6799326497"
+TELEGRAM_BOT_TOKEN = "TG Bot Token"
+TELEGRAM_CHAT_ID = "Chat ID"
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
 # Discord Webhook URL
-DISCORD_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1264288018429378623/g81dNxEUQCYx2xWNtvKN8vpKTlH1dE9ORr444LqW6hE3_-0uz9gdlVJUYDngEAuVd_0n"
+DISCORD_WEBHOOK_URL = "WEBHOOK URL"
 
 # GeoIP Lookup Configuration
 IPSTACK_API_KEY = "de0873fbd49ca6c2e2cfa5eda4215f30"
